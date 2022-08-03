@@ -1,0 +1,54 @@
+.uil {
+  line-height: normal;
+  font-size: 20px;
+}
+
+//Background Ellipse on Listing Section Landing Page
+.bg-ellipse {
+  position: absolute;
+  &--right {
+    right: 0;
+    top: 20%;
+  }
+  &--left {
+    left: 0;
+    top: 50%;
+    transform: rotate(180deg);
+  }
+  &--sellcta {
+    left: 0;
+    bottom: 0;
+  }
+}
+
+//Featured Swiper Style Custom .
+.swiper {
+  .swiper-pagination {
+    position: relative;
+    margin-top: 55px;
+  }
+  .swiper-pagination-bullet {
+    height: 24px;
+    width: 24px;
+    background-color: transparent;
+    border: 1px solid;
+  }
+  .swiper-pagination-bullet-active {
+    background-color: $primary;
+    border-color: $primary;
+  }
+}
+
+.uil-select {
+  font-family: unicons-line;
+  font-style: normal;
+  font-weight: 400;
+  speak: none;
+  display: inline-block;
+  text-decoration: inherit;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}

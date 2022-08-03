@@ -1,0 +1,12 @@
+extends ./layouts/_default.pug
+block variables
+	- var title = 'Connect Storage'
+	- var prefix = FILE_PREFIX
+	- var imgPrefixUrl = IMG_PREFIX_URL
+
+block content
+	include ./partials/landing/_featured.pug
+	include ./partials/landing/_listing.pug
+	include ./partials/landing/_selfstorage.pug
+	include ./partials/landing/_cta.pug
+
